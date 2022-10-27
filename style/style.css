@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+.conteudo {
+  background-color: hsl(215, 22%, 15%);
+  height: 555px;
+  width: 545px;
+  margin: 190px auto;
+  border-radius: 30px;
+}
+.estrela {
+  background-color: #272e38;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-right: 505px;
+  margin-bottom: 50px;
+}
+
+.titulo {
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  margin-left: 40px;
+  font-size: 39px;
+  margin-bottom: 20px;
+}
+p {
+  color: #737a84;
+  font-family: 'Overpass', sans-serif;
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.botao-avaliacao {
+  text-align: center;
+  color: #808998;
+  background-color: #272e38;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 0;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 20px;
+}
+.submit {
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  border: 0;
+  margin-left: 40px;
+  margin-top: 40px;
+  height: 60px;
+  width: 450px;
+  border-radius: 30px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.attribution {
+  color: white;
+}
