@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 555px;
+  width: 555px;
+  margin: 255px auto;
+  background-color: hsl(215, 23%, 14%);
+  border-radius: 30px;
+}
+.imagem {
+  margin-bottom: 40px;
+  margin-top: -50px;
+}
+.selecao {
+  color: orange;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  background-color: #262f38;
+  border-radius: 20px;
+  width: 210px;
+  height: 30px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+h1 {
+  color: white;
+  font-family: 'Overpass', 'sans-serif';
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 20px;
+  color: hsl(216, 12%, 54%);
+  font-family: 'Overpass';
+  font-weight: 400;
+  text-align: center;
+  line-height: 30px;
+}
