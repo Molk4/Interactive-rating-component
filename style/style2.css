@@ -3,6 +3,7 @@
   padding: 0;
 }
 body {
+  margin-top: 40px;
   background-color: hsl(216, 12%, 8%);
 }
 .conteudo {
@@ -12,7 +13,7 @@ body {
   flex-direction: column;
   height: 555px;
   width: 555px;
-  margin: 255px auto;
+  margin: auto auto;
   background-color: hsl(215, 23%, 14%);
   border-radius: 30px;
 }

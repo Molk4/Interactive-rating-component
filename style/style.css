@@ -3,14 +3,16 @@
   padding: 0;
 }
 body {
+  margin-top: 40px;
   background-color: hsl(216, 12%, 8%);
 }
 .conteudo {
   background-color: hsl(215, 22%, 15%);
   height: 555px;
   width: 545px;
-  margin: 190px auto;
+  margin: auto auto;
   border-radius: 30px;
+  display: block;
 }
 .estrela {
   background-color: #272e38;
@@ -54,6 +56,16 @@ p {
   margin-top: 40px;
   margin-left: 40px;
   font-size: 20px;
+  cursor: pointer;
+}
+.botao-avaliacao:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+  transition: 0.15s;
+}
+.botao-avaliacao:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
 }
 .submit {
   color: white;
@@ -69,7 +81,17 @@ p {
   font-size: 20px;
   letter-spacing: 2px;
   text-align: center;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: white;
+  color: orange;
+  transition: 0.15s;
 }
 .attribution {
+  color: white;
+}
+a {
+  text-decoration: none;
   color: white;
 }
